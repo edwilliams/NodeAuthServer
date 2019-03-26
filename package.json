@@ -1,0 +1,35 @@
+{
+  "name": "auth-node-server-jwt",
+  "version": "1.0.0",
+  "description": "Node Auth Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwilliams/auth-boilerplate"
+  },
+  "keywords": [
+    "node",
+    "jwt",
+    "auth",
+    "aws"
+  ],
+  "author": "Ed Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwilliams/auth-boilerplate/issues"
+  },
+  "homepage": "https://github.com/edwilliams/auth-boilerplate#readme",
+  "dependencies": {
+    "aws-sdk": "^2.421.0",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.3",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
